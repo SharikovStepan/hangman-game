@@ -82,4 +82,15 @@ html {
 	.result-word span{
 		@apply font-medium;
 	}
+
+	.rules{
+		@apply absolute top-1/4 left-1/2 -translate-x-1/2
+		bg-zinc-300
+		w-3/4 h-2/4
+		border border-black rounded-md py-4 px-4
+		flex flex-col gap-5 justify-around
+		text-center text-2xl
+		dark:border-white dark:bg-zinc-900
+		z-100
+	}
 }
