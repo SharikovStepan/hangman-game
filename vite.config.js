@@ -4,5 +4,5 @@ export default defineConfig({
 	plugins: [
 		tailwindcss(),
 	],
-	base:'/<hangman-game>/'
+	base:'/hangman-game/'
 })
